@@ -28,8 +28,5 @@
             "types": "./CODE/types/index.d.ts",
             "default": "./CODE/index.js"
         }
-    },
-    "dependencies": {
-        "oficinabrasil-atoms": "file:oficinabrasil-atoms-1.0.0.tgz"
     }
 }
