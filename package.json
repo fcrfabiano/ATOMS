@@ -1,0 +1,35 @@
+{
+    "name": "oficinabrasil-atoms",
+    "version": "1.0.0",
+    "author": "Fabiano César <fcfabiano.cesar@gmail.com>",
+    "description": "Funções básicas reutilizáveis.",
+    "sideEffects": false,
+    "keywords": [
+        "atoms"
+    ],
+    "homepage": "https://github.com/fcrfabiano/ATOMS#readme",
+    "bugs": {
+        "url": "https://github.com/fcrfabiano/ATOMS/issues"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/fcrfabiano/ATOMS.git"
+    },
+    "license": "LGPL-3.0-only",
+    "type": "module",
+    "files": [
+        "index.js",
+        "README.md"
+    ],
+    "main": "./CODE/index.js",
+    "types": "./CODE/types/index.d.ts",
+    "exports": {
+        ".": {
+            "types": "./CODE/types/index.d.ts",
+            "default": "./CODE/index.js"
+        }
+    },
+    "dependencies": {
+        "oficinabrasil-atoms": "file:oficinabrasil-atoms-1.0.0.tgz"
+    }
+}
