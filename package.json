@@ -1,6 +1,6 @@
 {
     "name": "oficinabrasil-atoms",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Fabiano César <fcfabiano.cesar@gmail.com>",
     "description": "Funções básicas reutilizáveis.",
     "sideEffects": false,
@@ -18,8 +18,9 @@
     "license": "LGPL-3.0-only",
     "type": "module",
     "files": [
-        "index.js",
-        "README.md"
+        "CODE",
+        "README.md",
+        "LICENSE.md"
     ],
     "main": "./CODE/index.js",
     "types": "./CODE/types/index.d.ts",
