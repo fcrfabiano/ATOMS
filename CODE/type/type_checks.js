@@ -9,24 +9,6 @@ export function isBoolean(
 
 // ~~
 
-export function isNatural(
-    value
-    )
-{
-    return isInteger( value ) && getInteger( value ) >= 0;
-}
-
-// ~~
-
-export function isNumber(
-    value
-    )
-{
-    return typeof value === 'number';
-}
-
-// ~~
-
 export function isString(
     value
     )
