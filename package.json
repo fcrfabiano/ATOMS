@@ -1,6 +1,6 @@
 {
     "name": "oficinabrasil-atoms",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "author": "Fabiano César <fcfabiano.cesar@gmail.com>",
     "description": "Funções básicas reutilizáveis.",
     "sideEffects": false,
