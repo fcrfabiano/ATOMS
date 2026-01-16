@@ -1,3 +1,15 @@
+// -- IMPORTS
+
+import
+    {
+        naturalExpression,
+        integerExpression,
+        realExpression,
+        numericExpression,
+        slugExpression
+    }
+    from '../constants/regex_constants.js';
+
 // -- FUNCTIONS
 
 export function isBooleanText(

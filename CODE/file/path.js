@@ -1,3 +1,8 @@
+// -- IMPORTS
+
+import { invalidCharacterExpression } from '../constants/regex_constants.js';
+import { replaceIteratively } from '../text/text_functions.js';
+
 // -- FUNCTIONS
 
 export function getLogicalFilePath(

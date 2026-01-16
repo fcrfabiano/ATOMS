@@ -1,3 +1,6 @@
+// -- IMPORTS
+
+import { degreesToRadians, radiansToDegrees } from '../constants/math_constants.js';
 
 // -- FUNCTIONS
 
@@ -46,7 +49,7 @@ export function getRandomReal(
     postReal
     )
 {
-    return firstReal + getRandom() * ( postReal - firstReal );
+    return firstReal + Math.random() * ( postReal - firstReal );
 }
 
 // ~~
@@ -56,7 +59,7 @@ export function getRandomInteger(
     lastInteger
     )
 {
-    return getFloorInteger( firstInteger + getRandom() * ( lastInteger - firstInteger + 1 ) );
+    return Math.floor( firstInteger + Math.random() * ( lastInteger - firstInteger + 1 ) );
 }
 
 // ~~

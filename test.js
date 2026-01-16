@@ -12,7 +12,7 @@ import
         getQuotedText,
         getUniversalDateTime
     }
-    from './CODE';
+    from './CODE/index.js';
 
 // -- FUNCTIONS
 
